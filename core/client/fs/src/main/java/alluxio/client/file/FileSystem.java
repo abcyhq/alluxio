@@ -98,7 +98,7 @@ public interface FileSystem extends Closeable {
     }
 
     /**
-     * Get a FileSystem from the cache with a given subject.
+     * Gets a FileSystem from the cache with a given subject.
      *
      * @param subject The subject to use for security-related client operations
      * @return a FileSystem from the cache, creating a new one if it doesn't yet exist
@@ -108,7 +108,7 @@ public interface FileSystem extends Closeable {
     }
 
     /**
-     * Get a FileSystem from the cache with a given subject.
+     * Gets a FileSystem from the cache with a given subject.
      * @param subject The subject to use for security-related client operations
      * @param conf the Alluxio configuration
      * @return a FileSystem from the cache, creating a new one if it doesn't yet exist
